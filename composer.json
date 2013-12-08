@@ -1,0 +1,27 @@
+{
+    "name": "pixelpolishers/makedocs-zf2",
+    "description": "A Zend Framework 2 module that can be used to generate documentation from a ZF2 application.",
+    "homepage": "http://pixelpolishers.com/",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Walter Tamboer",
+            "email": "w.tamboer@pixelpolishers.com",
+            "homepage": "http://www.pixelpolishers.com"
+        }
+    ],
+    "support": {
+        "irc": "irc://irc.freenode.org/pixelpolishers",
+        "issues": "https://github.com/pixelpolishers/makedocs/issues"
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "pixelpolishers/makedocs": "*"
+    },
+    "autoload": {
+        "psr-0": {
+			"MakeDocsZf2": "src/"
+		}
+    }
+}
