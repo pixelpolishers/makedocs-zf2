@@ -13,7 +13,7 @@ return array(
                 'options' => array(
                     'route' => '/makedocs/webhook/:webhook',
                     'defaults' => array(
-                        'controller' => 'makedocs',
+                        'controller' => 'MakeDocsZf2\Controller\MakeDocsController',
                         'action' => 'webhook',
                     ),
                 ),
@@ -31,7 +31,7 @@ return array(
     ),
     'controllers' => array(
         'invokables' => array(
-            'makedocs' => 'MakeDocsZf2\Controller\MakeDocsController'
+            'MakeDocsZf2\Controller\MakeDocsController' => 'MakeDocsZf2\Controller\MakeDocsController'
         ),
     ),
 );
