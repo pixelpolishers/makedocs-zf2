@@ -22,10 +22,10 @@ return array(
     ),
     'service_manager' => array(
         'factories' => array(
-            'MakeDocs\Generator' => 'MakeDocsZf2\Service\GeneratorFactory',
             'MakeDocs\WebHook\GitHub' => 'MakeDocsZf2\Service\GitHubFactory',
         ),
         'invokables' => array(
+            'MakeDocs\Generator' => 'MakeDocs\Generator\Generator',
             'MakeDocs\Builder\Html' => 'MakeDocs\Builder\Html\HtmlBuilder',
         ),
     ),
